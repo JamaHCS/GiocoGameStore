@@ -20,5 +20,7 @@
   "bugs": {
     "url": "https://github.com/JamaHCS/GiocoGameStore/issues"
   },
-  "homepage": "https://github.com/JamaHCS/GiocoGameStore#readme"
+  "homepage": "https://github.com/JamaHCS/GiocoGameStore#readme",
+  "dependencies": {
+  }
 }
