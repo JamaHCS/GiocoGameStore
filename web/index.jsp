@@ -27,19 +27,26 @@
   <title>Login</title>
 </head>
 
-<body>
-
-  <div class="container mt-4 mb-4">
+<body class="loginBG">
+  <div class="container mt-4 mb-4 loginBG">
     <div class="row">
       <div class="col">
-        <div class="card">
-          <div class="card-body text-center">
+        <div class="card central-card">
+          <img src="./assets/bigLogo.png" alt="Gioco Logo" class="card-img-top">
+          <div class="card-body">
             <form action="" method="post">
-              <div class="form-group">
-                <img src="./assets/bigLogo.png" alt="Gioco Logo" class="img-fluid">
+              <div class="form-group text-center mb-3">
+                <h3>Login</h3>
               </div>
-              <div class="form-group"></div>
-              <div class="form-group"></div>
+              <div class="form-group toDown">
+                <label for="userInput">Usuario:</label>
+                <input type="text" name="userInput" id="userInput" class="form-control">
+              </div>
+              <div class="form-group toDown">
+                <label for="passwordInput">Contraseña:</label>
+                <input type="password" name="passwordInput" id="passwordInput" class="form-control">
+              </div>
+              <button type="submit" class="btn btn-primary toDown" value="Ingresar">Ingresar</button>
             </form>
           </div>
         </div>
