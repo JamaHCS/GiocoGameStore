@@ -34,7 +34,7 @@
         <div class="card central-card">
           <img src="./assets/bigLogo.png" alt="Gioco Logo" class="card-img-top">
           <div class="card-body">
-            <form action="" method="post">
+            <form action="validate" method="post">
               <div class="form-group text-center mb-3">
                 <h3>Login</h3>
               </div>
@@ -46,7 +46,8 @@
                 <label for="passwordInput">Contraseña:</label>
                 <input type="password" name="passwordInput" id="passwordInput" class="form-control">
               </div>
-              <button type="submit" class="btn btn-primary toDown" value="Ingresar">Ingresar</button>
+              <button type="submit" name="submitFormLogin" id="submitFormLogin" value="Ingresar"
+                class="btn btn-primary toDown">Ingresar</button>
             </form>
           </div>
         </div>

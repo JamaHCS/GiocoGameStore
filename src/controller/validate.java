@@ -10,10 +10,16 @@ import java.io.IOException;
 @WebServlet(name = "validate")
 public class validate extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String action = request.getParameter("submitFormLogin");
+        if(action.equalsIgnoreCase("Ingresar")){
+            String user = request.getParameter("userInput");
+            String password = request.getParameter("passwordInput");
+        }else{
 
+        }
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        processRequest(request, response);
     }
 }
