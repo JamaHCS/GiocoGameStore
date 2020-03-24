@@ -1,4 +1,4 @@
-package model;
+package model.objects;
 
 public class Consoles extends Product{
     private String model;

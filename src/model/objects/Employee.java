@@ -1,4 +1,4 @@
-package model;
+package model.objects;
 
 import java.util.Date;
 
@@ -6,12 +6,13 @@ public class Employee extends User {
     private int idSupervisor;
     private String branch;
 
-    public Employee(String nickname, String password, String firstName, String secondName, String middleName, String lastName, Date bornDate, String email, String phoneNumber, int userType, Date since, int idSupervisor, String branch) {
-        super(nickname, password, firstName, secondName, middleName, lastName, bornDate, email, phoneNumber, userType, since);
+    public Employee(int id,String nickname, String password, String firstName, String secondName, String middleName, String lastName, Date bornDate, String email, String phoneNumber, int userType, Date since, int idSupervisor, String branch) {
+        super(id, nickname, password, firstName, secondName, middleName, lastName, bornDate, email, phoneNumber, userType, since);
         this.idSupervisor = idSupervisor;
         this.branch = branch;
+    }
 
-
+    public Employee() {
     }
 
     public int getIdSupervisor() {

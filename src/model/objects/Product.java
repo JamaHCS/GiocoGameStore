@@ -1,4 +1,4 @@
-package model;
+package model.objects;
 
 public abstract class Product {
     private int productId;

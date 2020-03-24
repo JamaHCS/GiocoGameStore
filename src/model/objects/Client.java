@@ -1,4 +1,4 @@
-package model;
+package model.objects;
 
 import java.util.Date;
 
@@ -12,8 +12,11 @@ public class Client extends User {
     private int postalCode;
     private String colony;
 
-    public Client(String nickname, String password, String firstName, String secondName, String middleName, String lastName, Date bornDate, String email, String phoneNumber, int userType, Date since, String rfc, String curp, double points, String street, int exteriorN, int interiorN, int postalCode, String colony) {
-        super(nickname, password, firstName, secondName, middleName, lastName, bornDate, email, phoneNumber, userType, since);
+    public Client() {
+    }
+
+    public Client(int id, String nickname, String password, String firstName, String secondName, String middleName, String lastName, Date bornDate, String email, String phoneNumber, int userType, Date since, String rfc, String curp, double points, String street, int exteriorN, int interiorN, int postalCode, String colony) {
+        super(id, nickname, password, firstName, secondName, middleName, lastName, bornDate, email, phoneNumber, userType, since);
         this.rfc = rfc;
         this.curp = curp;
         this.points = points;

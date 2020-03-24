@@ -1,5 +1,8 @@
 package controller;
 
+import model.DAO.EmployeeDAO;
+import model.objects.Employee;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -9,17 +12,33 @@ import java.io.IOException;
 
 @WebServlet(name = "validate")
 public class validate extends HttpServlet {
+
+    EmployeeDAO employeeDAO = new EmployeeDAO();
+    Employee employee = new Employee();
+
+    protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        response.setContentType("text/html; charset=UTF-8");
+    }
+
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String action = request.getParameter("submitFormLogin");
-        if(action.equalsIgnoreCase("Ingresar")){
+        if (action.equalsIgnoreCase("Ingresar")) {
             String user = request.getParameter("userInput");
             String password = request.getParameter("passwordInput");
-        }else{
+            employee = employeeDAO.validate(user, password);
+
+            if (employee.getNickname() != null) {
+                request.getRequestDispatcher("controller?action=main").forward(request, response);
+            } else {
+                request.getRequestDispatcher("index.jsp").forward(request, response);
+            }
+        } else {
+            request.getRequestDispatcher("index.jsp").forward(request, response);
 
         }
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        processRequest(request, response);
+//        processRequest(request, response);
     }
 }

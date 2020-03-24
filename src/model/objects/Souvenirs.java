@@ -1,4 +1,4 @@
-package model;
+package model.objects;
 
 public class Souvenirs extends Product {
     private String type;

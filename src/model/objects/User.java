@@ -1,9 +1,8 @@
-package model;
+package model.objects;
 
 import java.util.Date;
 
 public abstract class User {
-    private static int it = 1;
     private int id;
     private String nickname;
     private String password;
@@ -21,7 +20,7 @@ public abstract class User {
 
     User(){}
 
-    public User(String nickname, String password, String firstName, String secondName, String middleName, String lastName, Date bornDate, String email, String phoneNumber, int userType, Date since) {
+    public User(int id,String nickname, String password, String firstName, String secondName, String middleName, String lastName, Date bornDate, String email, String phoneNumber, int userType, Date since) {
         this.nickname = nickname;
         this.password = password;
         this.firstName = firstName;
@@ -33,8 +32,7 @@ public abstract class User {
         this.phoneNumber = phoneNumber;
         this.userType = userType;
         this.since = since;
-        this.id = it;
-        it++;
+        this.id = id;
     }
 
     public int getId() {

@@ -1,4 +1,4 @@
-package model;
+package model.objects;
 
 public class Platform {
     private String generation;
