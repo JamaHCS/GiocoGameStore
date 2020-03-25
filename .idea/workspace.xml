@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Gioco-Maven:Web2 exploded" />
+      <artifact name="Gioco-Maven:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9649f83f-5395-427b-b68f-9d57a8b0d259" name="Default Changelist" comment="" />
+    <list default="true" id="d5bff89c-e557-42a9-84e9-cf4090fa1ecc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Gioco_Maven_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/submit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Gioco_Maven_Web2_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Gioco_Maven_Web_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/89b7c0b9-33c5-46f4-a210-168268ca113d.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/89b7c0b9-33c5-46f4-a210-168268ca113d/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gioco-Maven.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Gioco-Maven.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,48 +40,11 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost:3306" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost:3306" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost:3306" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="gioco: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost:3306" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="gioco: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="brand: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost:3306" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="gioco: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="client: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Gioco-Maven" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -80,13 +60,9 @@
         <option name="userSettingsFile" value="C:\Users\jama1\.m2\settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
-  <component name="ProjectId" id="1Zc1clDRvtb5mQNC3NCg634w2je" />
+  <component name="ProjectId" id="1ZdPSR5Wyfz8wIPr75nIxVeEks3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -95,33 +71,28 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.3586207" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jama1\Desktop\IntegradoraSegundo\Gioco-Maven\web" />
-      <recent name="C:\Users\jama1\Desktop\IntegradoraSegundo\Gioco-Maven\src\main\java" />
-    </key>
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
-    <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.33" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Gioco-Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.33" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:2020/Gioco" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Gioco-Maven:Web2 exploded">
+        <artifact name="Gioco-Maven:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/Gioco" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Gioco-Maven" />
-        <option name="HTTP_PORT" value="2021" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Gioco-Maven_2" />
+        <option name="HTTP_PORT" value="2020" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -129,7 +100,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="57820" />
+        <option name="DEBUG_PORT" value="61141" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -179,7 +150,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Gioco-Maven:Web2 exploded" />
+          <artifact name="Gioco-Maven:war exploded" />
         </option>
       </method>
     </configuration>
@@ -197,7 +168,16 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="MySQL - gioco@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="MySQL - gioco@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@215c5909" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -211,95 +191,83 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9649f83f-5395-427b-b68f-9d57a8b0d259" name="Default Changelist" comment="" />
-      <created>1585123649451</created>
+      <changelist id="d5bff89c-e557-42a9-84e9-cf4090fa1ecc" name="Default Changelist" comment="" />
+      <created>1585165996143</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1585123649451</updated>
-      <workItem from="1585123652907" duration="4489000" />
-      <workItem from="1585129922339" duration="174000" />
+      <updated>1585165996143</updated>
+      <workItem from="1585166001104" duration="569000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../.." />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="392" y="88" key="#Notifications" timestamp="1585126680980">
+    <state x="392" y="88" key="#Project_Structure" timestamp="1585166198428">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="88" key="#Notifications/0.0.1600.860@0.0.1600.860" timestamp="1585126680980" />
-    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585126813637">
+    <state x="392" y="88" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1585166198428" />
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585166570685">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1585126813637" />
-    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser" timestamp="1585125701896">
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1585166570685" />
+    <state width="1069" height="222" key="GridCell.Tab.0.bottom" timestamp="1585166594065">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="139" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1585125701896" />
-    <state x="529" y="308" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585124986749">
+    <state width="1069" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585166594065" />
+    <state width="1069" height="222" key="GridCell.Tab.0.center" timestamp="1585166594065">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="529" y="308" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1600.860@0.0.1600.860" timestamp="1585124986749" />
-    <state width="1069" height="222" key="GridCell.Tab.0.bottom" timestamp="1585130096134">
+    <state width="1069" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1585166594065" />
+    <state width="1069" height="222" key="GridCell.Tab.0.left" timestamp="1585166594064">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585130096134" />
-    <state width="1069" height="222" key="GridCell.Tab.0.center" timestamp="1585130096134">
+    <state width="1069" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1585166594064" />
+    <state width="1069" height="222" key="GridCell.Tab.0.right" timestamp="1585166594065">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1585130096134" />
-    <state width="1069" height="222" key="GridCell.Tab.0.left" timestamp="1585130096134">
+    <state width="1069" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1585166594065" />
+    <state width="1069" height="222" key="GridCell.Tab.1.bottom" timestamp="1585166467499">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1585130096134" />
-    <state width="1069" height="222" key="GridCell.Tab.0.right" timestamp="1585130096134">
+    <state width="1069" height="222" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585166467499" />
+    <state width="1069" height="222" key="GridCell.Tab.1.center" timestamp="1585166467499">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1585130096134" />
-    <state width="1069" height="222" key="GridCell.Tab.1.bottom" timestamp="1585130096135">
+    <state width="1069" height="222" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1585166467499" />
+    <state width="1069" height="222" key="GridCell.Tab.1.left" timestamp="1585166467499">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585130096135" />
-    <state width="1069" height="222" key="GridCell.Tab.1.center" timestamp="1585130096135">
+    <state width="1069" height="222" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1585166467499" />
+    <state width="1069" height="222" key="GridCell.Tab.1.right" timestamp="1585166467499">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1585130096135" />
-    <state width="1069" height="222" key="GridCell.Tab.1.left" timestamp="1585130096135">
+    <state width="1069" height="222" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1585166467499" />
+    <state width="1069" height="222" key="GridCell.Tab.2.bottom" timestamp="1585166467500">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1585130096135" />
-    <state width="1069" height="222" key="GridCell.Tab.1.right" timestamp="1585130096135">
+    <state width="1069" height="222" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585166467500" />
+    <state width="1069" height="222" key="GridCell.Tab.2.center" timestamp="1585166467500">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1585130096135" />
-    <state width="1069" height="222" key="GridCell.Tab.2.bottom" timestamp="1585130096135">
+    <state width="1069" height="222" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1585166467500" />
+    <state width="1069" height="222" key="GridCell.Tab.2.left" timestamp="1585166467499">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585130096135" />
-    <state width="1069" height="222" key="GridCell.Tab.2.center" timestamp="1585130096135">
+    <state width="1069" height="222" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1585166467499" />
+    <state width="1069" height="222" key="GridCell.Tab.2.right" timestamp="1585166467500">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1585130096135" />
-    <state width="1069" height="222" key="GridCell.Tab.2.left" timestamp="1585130096135">
+    <state width="1069" height="222" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1585166467500" />
+    <state x="301" y="72" key="SettingsEditor" timestamp="1585166100919">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1585130096135" />
-    <state width="1069" height="222" key="GridCell.Tab.2.right" timestamp="1585130096135">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state width="1069" height="222" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1585130096135" />
-    <state x="267" y="4" width="1053" height="851" key="SettingsEditor" timestamp="1585126422483">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="267" y="4" width="1053" height="851" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1585126422483" />
-    <state x="516" y="106" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1585127330079">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="516" y="106" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1600.860@0.0.1600.860" timestamp="1585127330079" />
-    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1585129937035">
-      <screen x="0" y="0" width="1600" height="860" />
-    </state>
-    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1585129937034" />
+    <state x="301" y="72" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1585166100919" />
   </component>
 </project>
