@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gioco-Maven:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Gioco_Maven_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Gioco-Maven/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="javaee-facet-classes" facet="Gioco-Maven/web/Web" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

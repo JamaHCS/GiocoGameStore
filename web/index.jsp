@@ -46,9 +46,8 @@
                             <label for="passwordInput">Contraseña:</label>
                             <input type="password" name="passwordInput" id="passwordInput" class="form-control">
                         </div>
-                        <button type="submit" name="submitFormLogin" id="submitFormLogin"
-                                class="btn btn-primary toDown" value="Ingresar">Ingresar
-                        </button>
+                        <input type="submit" name="submitFormLogin" id="submitFormLogin"
+                               class="btn btn-primary toDown" value="Ingresar">
                     </form>
                 </div>
             </div>

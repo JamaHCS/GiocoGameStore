@@ -1,11 +1,7 @@
 package config;
 
-import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.util.Objects;
-import java.util.Properties;
 
 public class ConnectionDB {
     Connection toDataBase;
@@ -15,10 +11,10 @@ public class ConnectionDB {
 
     public Connection toConnection(){
         try{
-            Class.forName("com.mysql.cj.jdbc.Driver");
+            Class.forName("com.mysql.jdbc.Driver");
             toDataBase = DriverManager.getConnection(url, user, password);
         }catch (Exception e){
-
+            //Do nothing, fuck!
         }
 
         return toDataBase;

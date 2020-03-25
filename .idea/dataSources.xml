@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="@localhost:3306" uuid="89b7c0b9-33c5-46f4-a210-168268ca113d">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/gioco</jdbc-url>
+      <driver-properties>
+        <property name="serverTimezone" value="GMT-6" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>

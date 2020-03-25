@@ -1,6 +1,6 @@
 package model.objects;
 
-public class Consoles extends Product{
+public class Consoles extends Product {
     private String model;
     private float capacity;
     private String details;
