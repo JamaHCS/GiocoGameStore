@@ -10,18 +10,22 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "validate")
-public class validate extends HttpServlet {
+@WebServlet(name = "Validate")
+public class Validate extends HttpServlet {
 
     EmployeeDAO employeeDAO = new EmployeeDAO();
     Employee employee = new Employee();
+
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html; charset=UTF-8");
     }
 
+    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
         String action = request.getParameter("submitFormLogin");
+
         if (action.equalsIgnoreCase("Ingresar")) {
             String user = request.getParameter("userInput");
             String password = request.getParameter("passwordInput");
@@ -39,6 +43,6 @@ public class validate extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-//        processRequest(request, response);
+        processRequest(request, response);
     }
 }
