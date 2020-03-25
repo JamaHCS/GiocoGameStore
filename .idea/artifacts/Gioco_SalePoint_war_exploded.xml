@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gioco-SalePoint:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Gioco_SalePoint_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Gioco-SalePoint/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Gioco-SalePoint" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
