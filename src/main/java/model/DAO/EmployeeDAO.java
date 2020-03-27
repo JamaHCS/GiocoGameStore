@@ -2,17 +2,13 @@ package model.DAO;
 
 import config.ConnectionDB;
 import model.objects.Employee;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.sql.SQLException;
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-import java.io.Writer;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.io.PrintWriter;
+
+import static config.Ansi.ANSI_RESET;
+import static config.Ansi.ANSI_YELLOW;
 
 public class EmployeeDAO {
     ConnectionDB connectionDB = new ConnectionDB();
@@ -36,11 +32,9 @@ public class EmployeeDAO {
                 anEmployee.setNickname(resultSet.getString(2));
                 anEmployee.setPassword(resultSet.getString(3));
             }
-
         } catch (Exception e) {
-            System.out.println(e);
+            System.out.println(ANSI_YELLOW + e + ANSI_RESET);
         }
-
         return anEmployee;
     }
 }

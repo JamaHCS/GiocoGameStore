@@ -18,9 +18,10 @@ public abstract class User {
     private Date since;
     private int status;
 
-    User(){}
+    User() {
+    }
 
-    public User(int id,String nickname, String password, String firstName, String secondName, String middleName, String lastName, Date bornDate, String email, String phoneNumber, int userType, Date since) {
+    public User(int id, String nickname, String password, String firstName, String secondName, String middleName, String lastName, Date bornDate, String email, String phoneNumber, int userType, Date since) {
         this.nickname = nickname;
         this.password = password;
         this.firstName = firstName;

@@ -33,7 +33,8 @@ CREATE TABLE `brand`
   DEFAULT CHARSET = latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
-ALTER TABLE `brand` AUTO_INCREMENT = 4;
+ALTER TABLE `brand`
+    AUTO_INCREMENT = 4;
 
 --
 -- Dumping data for table `brand`
@@ -302,8 +303,8 @@ CREATE TABLE `users`
     `nickname`     varchar(20) NOT NULL,
     `passwordUser` varchar(20) NOT NULL,
     `typeUser`     int(1)      NOT NULL,
-    `idClient`     int(5)      DEFAULT '-1',
-    `idSeller`     int(5)      DEFAULT '-1',
+    `idClient`     int(5) DEFAULT '-1',
+    `idSeller`     int(5) DEFAULT '-1',
     `status`       int(1)      NOT NULL,
     `idUser`       int(11)     NOT NULL auto_increment,
     UNIQUE KEY `idUser` (`idUser`),

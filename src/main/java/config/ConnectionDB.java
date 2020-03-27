@@ -4,6 +4,8 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+import static config.Ansi.*;
+
 public class ConnectionDB {
     String url = "jdbc:mysql://localhost:3306/gioco?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT-6";
     String user = "JamaHCS";
@@ -16,10 +18,10 @@ public class ConnectionDB {
         try {
             toDataBase = DriverManager.getConnection(url, user, password);
             if (toDataBase != null) {
-                System.out.println("Conexión exitosa");
+                System.out.println(ANSI_GREEN + "Conexión exitosa" + ANSI_RESET);
             }
         } catch (SQLException e) {
-            System.out.println(e);
+            System.out.println(ANSI_YELLOW + e + ANSI_RESET);
         }
 
         return toDataBase;
