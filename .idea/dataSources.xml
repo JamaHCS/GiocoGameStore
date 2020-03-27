@@ -4,11 +4,17 @@
     <data-source source="LOCAL" name="MySQL - gioco@localhost" uuid="1121826a-6b83-4caf-a0fb-f77e06385583">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/gioco</jdbc-url>
       <driver-properties>
         <property name="serverTimezone" value="GMT-6" />
       </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="gioco@localhost" uuid="60675307-750f-4570-aaf3-c29e3c81ce21">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3307/gioco</jdbc-url>
     </data-source>
   </component>
 </project>

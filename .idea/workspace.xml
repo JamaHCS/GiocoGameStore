@@ -7,8 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5bff89c-e557-42a9-84e9-cf4090fa1ecc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/protobuf-java-3.6.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Gioco_Maven_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Gioco_Maven_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Gioco_Maven_war_exploded/WEB-INF/classes/config/ConnectionDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Gioco_Maven_war_exploded/WEB-INF/classes/config/ConnectionDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Gioco_Maven_war_exploded/WEB-INF/classes/controller/Validate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Gioco_Maven_war_exploded/WEB-INF/classes/controller/Validate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Gioco_Maven_war_exploded/WEB-INF/classes/model/DAO/EmployeeDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Gioco_Maven_war_exploded/WEB-INF/classes/model/DAO/EmployeeDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/ConnectionDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/ConnectionDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Validate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Validate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/DAO/EmployeeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/DAO/EmployeeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/ConnectionDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/ConnectionDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/Validate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/Validate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/DAO/EmployeeDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/DAO/EmployeeDAO.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +43,22 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="gioco@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="MySQL - gioco@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - gioco@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - gioco@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="gioco: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
@@ -51,6 +80,11 @@
         <option name="userSettingsFile" value="C:\Users\jama1\.m2\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1ZdPSR5Wyfz8wIPr75nIxVeEks3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -65,10 +99,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.3586207" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jama1\Desktop\IntegradoraSegundo\Gioco-Maven" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Gioco-Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.33" ALTERNATIVE_JRE_ENABLED="false">
@@ -163,12 +203,7 @@
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="MySQL - gioco@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="MySQL - gioco@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@215c5909" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="gioco@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -188,6 +223,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585165996143</updated>
       <workItem from="1585166001104" duration="569000" />
+      <workItem from="1585291429805" duration="3023000" />
     </task>
     <servers />
   </component>
@@ -204,61 +240,77 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="88" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1585166198428" />
-    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585166570685">
+    <state x="392" y="88" key="#SQL_Dialects" timestamp="1585294457748">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1585166570685" />
-    <state width="1069" height="222" key="GridCell.Tab.0.bottom" timestamp="1585166921597">
+    <state x="392" y="88" key="#SQL_Dialects/0.0.1600.860@0.0.1600.860" timestamp="1585294457748" />
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585295729481">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585166921597" />
-    <state width="1069" height="222" key="GridCell.Tab.0.center" timestamp="1585166921597">
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1585295729481" />
+    <state x="527" y="176" key="FileChooserDialogImpl" timestamp="1585295621587">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1585166921597" />
-    <state width="1069" height="222" key="GridCell.Tab.0.left" timestamp="1585166921597">
+    <state x="527" y="176" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1585295621587" />
+    <state width="1069" height="222" key="GridCell.Tab.0.bottom" timestamp="1585295889656">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1585166921597" />
-    <state width="1069" height="222" key="GridCell.Tab.0.right" timestamp="1585166921597">
+    <state width="1069" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585295889656" />
+    <state width="1069" height="222" key="GridCell.Tab.0.center" timestamp="1585295889656">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1585166921597" />
-    <state width="1069" height="222" key="GridCell.Tab.1.bottom" timestamp="1585166921598">
+    <state width="1069" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1585295889656" />
+    <state width="1069" height="222" key="GridCell.Tab.0.left" timestamp="1585295889655">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585166921598" />
-    <state width="1069" height="222" key="GridCell.Tab.1.center" timestamp="1585166921598">
+    <state width="1069" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1585295889655" />
+    <state width="1069" height="222" key="GridCell.Tab.0.right" timestamp="1585295889656">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1585166921598" />
-    <state width="1069" height="222" key="GridCell.Tab.1.left" timestamp="1585166921597">
+    <state width="1069" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1585295889656" />
+    <state width="1069" height="222" key="GridCell.Tab.1.bottom" timestamp="1585295889567">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1585166921597" />
-    <state width="1069" height="222" key="GridCell.Tab.1.right" timestamp="1585166921598">
+    <state width="1069" height="222" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585295889567" />
+    <state width="1069" height="222" key="GridCell.Tab.1.center" timestamp="1585295889567">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1585166921598" />
-    <state width="1069" height="222" key="GridCell.Tab.2.bottom" timestamp="1585166921598">
+    <state width="1069" height="222" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1585295889567" />
+    <state width="1069" height="222" key="GridCell.Tab.1.left" timestamp="1585295889567">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585166921598" />
-    <state width="1069" height="222" key="GridCell.Tab.2.center" timestamp="1585166921598">
+    <state width="1069" height="222" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1585295889567" />
+    <state width="1069" height="222" key="GridCell.Tab.1.right" timestamp="1585295889567">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1585166921598" />
-    <state width="1069" height="222" key="GridCell.Tab.2.left" timestamp="1585166921598">
+    <state width="1069" height="222" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1585295889567" />
+    <state width="1069" height="222" key="GridCell.Tab.2.bottom" timestamp="1585295889568">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1585166921598" />
-    <state width="1069" height="222" key="GridCell.Tab.2.right" timestamp="1585166921598">
+    <state width="1069" height="222" key="GridCell.Tab.2.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585295889568" />
+    <state width="1069" height="222" key="GridCell.Tab.2.center" timestamp="1585295889568">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1069" height="222" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1585166921598" />
-    <state x="301" y="72" key="SettingsEditor" timestamp="1585166100919">
+    <state width="1069" height="222" key="GridCell.Tab.2.center/0.0.1600.860@0.0.1600.860" timestamp="1585295889568" />
+    <state width="1069" height="222" key="GridCell.Tab.2.left" timestamp="1585295889567">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="301" y="72" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1585166100919" />
+    <state width="1069" height="222" key="GridCell.Tab.2.left/0.0.1600.860@0.0.1600.860" timestamp="1585295889567" />
+    <state width="1069" height="222" key="GridCell.Tab.2.right" timestamp="1585295889568">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1069" height="222" key="GridCell.Tab.2.right/0.0.1600.860@0.0.1600.860" timestamp="1585295889568" />
+    <state x="301" y="9" key="SettingsEditor" timestamp="1585295623853">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="301" y="9" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1585295623853" />
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1585291430292">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="496" y="254" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1585291430292" />
+    <state x="182" y="125" key="new project wizard" timestamp="1585291826239">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="182" y="125" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1585291826239" />
   </component>
 </project>

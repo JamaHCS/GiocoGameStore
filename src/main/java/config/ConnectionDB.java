@@ -2,32 +2,26 @@ package config;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.SQLException;
 
 public class ConnectionDB {
-    Connection toDataBase;
-    String url = "jdbc:mysql://localhost:3306/gioco";
+    String url = "jdbc:mysql://localhost:3306/gioco?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT-6";
     String user = "JamaHCS";
     String password = "acceso.jama";
 
-    public Connection toConnection(){
-        try{
-            Class.forName("com.mysql.jdbc.Driver");
+    public Connection toConnection() throws ClassNotFoundException {
+        Connection toDataBase = null;
+        Class.forName("com.mysql.jdbc.Driver");
+
+        try {
             toDataBase = DriverManager.getConnection(url, user, password);
-        }catch (Exception e){
-            //Do nothing, fuck!
+            if (toDataBase != null) {
+                System.out.println("Conexión exitosa");
+            }
+        } catch (SQLException e) {
+            System.out.println(e);
         }
 
         return toDataBase;
     }
-
-//
-//    DataSource dataSource;
-//    Connection t = Objects.requireNonNull(dataSource).getConnection(user, password);
-//
-//    Properties info;
-//
-//    Connection ccConnection = DriverManager.getConnection();
-//    Connection connection = DriverManager.getConnection(user, info);
-//
-
 }

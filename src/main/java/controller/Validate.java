@@ -9,12 +9,19 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 @WebServlet(name = "Validate")
 public class Validate extends HttpServlet {
 
     EmployeeDAO employeeDAO = new EmployeeDAO();
-    Employee employee = new Employee();
+    Employee employee = null;
+
+    public Validate() throws IOException {
+    }
 
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -24,22 +31,18 @@ public class Validate extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        String action = request.getParameter("submitFormLogin");
 
-        if (action.equalsIgnoreCase("Ingresar")) {
-            String user = request.getParameter("userInput");
-            String password = request.getParameter("passwordInput");
-            employee = employeeDAO.validate(user, password);
+        String user = request.getParameter("userInput");
+        String password = request.getParameter("passwordInput");
+        employee = employeeDAO.validate(user, password);
 
-            if (employee.getNickname() != null) {
-                request.getRequestDispatcher("controller?action=main").forward(request, response);
-            } else {
-                request.getRequestDispatcher("index.jsp").forward(request, response);
-            }
+        if (employee != null) {
+            response.sendRedirect("/" + employee.getPassword());
+
         } else {
-            request.getRequestDispatcher("index.jsp").forward(request, response);
-
+            response.sendRedirect("/" + employee.getNickname());
         }
+
     }
 
     @Override
